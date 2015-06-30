@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>_G_ 12 Column Responsive Grid - Under 1k Minified - Stop using Bootstrap and Foundation if all you need is the grid</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Super Light Weight percentage base grid system by DevCabin.com" />
+<!-- Shout out to GridSystemGenerator.com -->
+
+<link href='http://fonts.googleapis.com/css?family=Josefin+Slab|Pacifico' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/1200_12_10_10.css" />
+<style>
+body, p, li, a, h1, h2, h3 {
+    font-family: "Josefin Slab",serif;
+}
+body {
+	background: #fff;
+	color: #333;
+	font-size: 11px;
+  padding-bottom:130px;
+}
+.row {
+	
+}
+a {
+	color: #333;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-weight: normal;
+	text-align: center;
+}
+h2 {
+	padding: 20px 0 0;
+	font-weight: normal;
+	text-align: center;
+}
+p {
+	border: 1px solid #666;
+  background:#efefef;
+	overflow: hidden;
+	padding: 10px 0;
+	margin: 0 0 20px 0;
+	text-align: center;
+	font-size: 110%;
+  font-weight: bold;
+}
+#footer {
+    background: #333 none repeat scroll 0 0;
+    bottom: 0;
+    padding: 30px;
+    position: fixed;
+}
+#footer li a, #footer a {
+    color: #fff;
+}
+#brand {
+    text-decoration: none;
+}
+#brand span {
+    font-family: "Pacifico",serif;
+    font-size: 30px;
+}
+.testing {
+  background: #ccc;
+  padding:20px;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="g_12">
+    <h1><a href="https://devcabin.com">_G_ Responsive Grid</a></h1>
+    <h2>12 columns like you're used to.<br/>
+      No "container", big screen width is handled by "row".<br/>
+      Minimal markup, smallest class names around.</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_11">
+    <p>g_11</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_2">
+    <p>g_2</p>
+  </div>
+  <div class="g_10">
+    <p>g_10</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_3">
+    <p>g_3</p>
+  </div>
+  <div class="g_9">
+    <p>g_9</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_4">
+    <p>g_4</p>
+  </div>
+  <div class="g_8">
+    <p>g_8</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_5">
+    <p>g_5</p>
+  </div>
+  <div class="g_7">
+    <p>g_7</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_6">
+    <p>g_6</p>
+  </div>
+  <div class="g_6">
+    <p>g_6</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_7">
+    <p>g_7</p>
+  </div>
+  <div class="g_5">
+    <p>g_5</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_8">
+    <p>g_8</p>
+  </div>
+  <div class="g_4">
+    <p>g_4</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_9">
+    <p>g_9</p>
+  </div>
+  <div class="g_3">
+    <p>g_3</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_10">
+    <p>g_10</p>
+  </div>
+  <div class="g_2">
+    <p>g_2</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_11">
+    <p>g_11</p>
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+</div>
+<div class="row">
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_11">
+    <p>g_11</p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="g_12">
+    <p>g_12</p>
+  </div>
+</div>
+
+
+<h2>Inspect element to see what's happening below<br>
+(empty divs for layout)</h2>
+
+
+<div class="row">
+  <div class="g_1">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_9">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_2">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_8">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_3">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_7">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_4">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_6">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_5">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_5">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_6">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_4">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_7">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_3">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_8">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_2">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_9">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_1">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_10">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+  <div class="g_0">
+    &nbsp;
+  </div>
+</div>
+<div class="row">
+  <div class="g_11">
+    &nbsp;
+  </div>
+  <div class="g_1">
+    <p>g_1</p>
+  </div>
+</div>
+
+
+<h2>Multiply to get 12</h2>
+
+<div class="row">
+  <div class="g_4"><p>Class g_4 </p></div>
+  <div class="g_4"><p>Class g_4 </p></div>
+  <div class="g_4"><p>Class g_4 </p></div>
+</div>
+<div class="row">
+  <div class="g_3"><p>Class g_3 </p></div>
+  <div class="g_3"><p>Class g_3 </p></div>
+  <div class="g_3"><p>Class g_3 </p></div>
+  <div class="g_3"><p>Class g_3 </p></div>
+</div>
+
+<div class="row">
+  <div class="g_6"><p>Class g_6 </p></div>
+  <div class="g_3"><p>Class g_3 </p></div>
+  <div class="g_3"><p>Class g_3 </p></div>
+</div>
+
+<h2>What if you want to go FULL width?</h2>
+
+<div class="full">
+  <p>div class="full"</p>
+</div>
+
+<h2>With gaps and floats</h2>
+
+<div class="row">
+  <div class="g_6"><p>g_6</p></div>
+  <div class="g_3 fright"><p>g_3 fright </p></div>
+</div>
+
+<div class="row">
+  <div class="g_3 fleft"><p>g_3 fleft </p></div>
+  <div class="g_6"><p>g_6</p></div>
+</div>
+
+<div class="row">
+  <div class="g_3 fleft"><p>g_3 fleft </p></div>
+  <div class="g_6 fright"><p>g_6 fright</p></div>
+</div>
+
+<h2>Force simple percentages on handheld.<br/>
+Don't want 100% width on a tiny screen? Ok.</h2>
+
+<div class="row">
+  <div class="g_6 g_50"><p>Class g_6 g_50</p></div>
+  <div class="g_6 g_50"><p>Class g_6 g_50</p></div>
+</div>
+
+<div class="row">
+  <div class="g_4 g_25"><p>Class g_4 g_25</p></div>
+  <div class="g_8 g_75"><p>Class g_8 g_75</p></div>
+</div>
+
+<h2>Percentages on handheld, with override of large screen layout</h2>
+
+<div class="row">
+  <div class="g_6 g_75"><p>Class g_6 g_75</p></div>
+  <div class="g_6 g_25"><p>Class g_6 g_25</p></div>
+</div>
+
+
+
+<h2>Hide / Show testing area</h2>
+<div class="testing">
+  <section class="sm_hide md_hide lg_show">
+  <h2>This section will disappear on smaller screens</h2>
+  </section>
+
+  <section class="sm_show md_hide lg_hide">
+  <h2>Hello! I'm only on mobile!</h2>
+  </section>
+
+  <section class="sm_show md_show lg_hide">
+  <h2>But this section will appear on mobile AND "in between" sizes!</h2>
+  </section>
+
+
+</div>
+
+
+  <div id="footer" class="g_12 full">
+    <a id="brand" title="View Recent Works" href="https://devcabin.com" data-sr="wait 4.5s then enter bottom and move 150px over 1.33s">
+      <span>DevCabin <i class="fa fa-rocket"></i></span>
+    </a>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+/*
+_G_ Responsive Grid by George Featherstone (https://devcabin.com)
+1200px grid system ~ Core CSS.
+12 cols, responsive, no gutters, 600px down full width with utilities in case. 
+under 1k.
+
+To DO:
+Create sassified version to compile with reset and typography and minify
+Document, license, and create variable to set "container" width. 
+
+*/
+
+img {max-width: 100%; height: auto;}
+.fleft {float:left !important;}
+.fright{float: right !important;}
+.g_clear {
+	display: inline-block;
+	clear: both;
+	width: 100%;
+}
+.g_1, .g_2, .g_3, .g_4, .g_5, .g_6, .g_7, .g_8, .g_9, .g_10, .g_11, .g_12 {float: left;}
+	.g_1 {width: 8.33%;}
+	.g_2 {width: 16.66%;}
+	.g_3 {width: 24.99%;}
+	.g_4 {width: 33.32%;}
+	.g_5 {width: 41.65%;}
+	.g_6 {width: 49.98%;}
+	.g_7 {width: 58.31%;}
+	.g_8 {width: 66.64%;}
+	.g_9 {width: 74.97%;}
+	.g_10 {width: 83.3%;}
+	.g_11 {width: 91.63%;}
+	.g_12 {width: 100%;}
+
+.row {width: 1200px;
+         margin: 0 auto;
+         overflow: hidden;}
+         /*
+.col {margin: 0 10px 0 10px;
+         overflow: hidden;
+         float: left;
+         display: inline;}
+         */
+.row .row {margin: 0 -10px 0 -10px;
+         width: auto;
+         display: inline-block;}
+
+
+.sm_hide {display: none;}
+.md_hide {display: none;}         
+.lg_hide {display: none !important;}
+
+.sm_show {display: none;}
+.md_show {display: none;}         
+.lg_show {display: block !important;}
+
+@media screen and (max-width:1199px) {
+	body {padding:0 4%;}
+	.row {width: 100%;}
+	.full {margin:0 -4%;}
+
+	.sm_hide {display: none;}
+	.md_hide {display: none !important;}        
+	.lg_hide {display: none;}
+
+	.sm_show {display: none;}
+	.md_show {display: block !important;}      
+	.lg_show {display: none;}
+}
+@media screen and (max-width:600px) {
+	.g_1, .g_2, .g_3, .g_4, .g_5, .g_6, .g_7, .g_8, .g_9, .g_10, .g_11, .g_12 {width: 100%;}
+	.body {overflow-x: hidden;}
+	/*
+	Override 100% width on handheld devices
+	*/
+	.g_75 {
+		width: 75%;
+		float:left;
+	}
+	.g_50 {
+		width: 50%;
+		float:left;
+	}
+	.g_25 {
+		width: 25%;
+		float:left;
+	}
+	.sm_hide {display: none !important;}
+	.md_hide {display: none;}         
+	.lg_hide {display: none;}
+
+	.sm_show {display: block !important;}
+	.md_show {display: none;}         
+	.lg_show {display: none;}
+}
