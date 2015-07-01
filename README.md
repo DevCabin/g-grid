@@ -6,7 +6,7 @@ I got nothing against Foundation or Bootstrap. I have used them both and like th
 
 Because of this I find that I include bootstrap and only end up using the grid and some responsive utilities. At the time of this writing bootstrap was between 100k and 200k minified. 
 
-This grid if around 1k minified and has all the same functionality I have been turning to Foundation or Bootstrap for on a regular basis. 
+This grid is around 1k minified and has all the same functionality I have been turning to Foundation or Bootstrap for on a regular basis. 
 
 Also I have removed the need for a "container" class, instead applying the large screen width to the "row" elements. One more talking point is how small my class names are. I went for short but intelligible. Every little bit counts, right? 
 
