@@ -41,9 +41,10 @@ img {max-width: 100%; height: auto;}
          float: left;
          display: inline;}
          */
-.row .row {margin: 0 -10px 0 -10px;
+.row .row {
+	/* margin: 0 -10px 0 -10px; */
          width: auto;
-         display: inline-block;}
+         display: block;}
 
 
 .sm_hide {display: none;}
